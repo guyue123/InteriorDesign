@@ -1909,7 +1909,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 429998, guid: 947e113398f058643a47464fff50cae1, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -59.2999992
+      value: -59.3
       objectReference: {fileID: 0}
     - target: {fileID: 10817028, guid: 947e113398f058643a47464fff50cae1, type: 2}
       propertyPath: m_Range
@@ -1917,7 +1917,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 429998, guid: 947e113398f058643a47464fff50cae1, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 1.60000002
+      value: 1.6
       objectReference: {fileID: 0}
     - target: {fileID: 2380936, guid: 947e113398f058643a47464fff50cae1, type: 2}
       propertyPath: m_CastShadows
@@ -1926,6 +1926,10 @@ Prefab:
     - target: {fileID: 2380936, guid: 947e113398f058643a47464fff50cae1, type: 2}
       propertyPath: m_ReceiveShadows
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 10817028, guid: 947e113398f058643a47464fff50cae1, type: 2}
+      propertyPath: m_Intensity
+      value: 0.52
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 947e113398f058643a47464fff50cae1, type: 2}
@@ -4616,7 +4620,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1485521457
 Transform:
   m_ObjectHideFlags: 0

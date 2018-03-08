@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.Scripts
+namespace Assets.Genetic_Algorithm.Scripts
 {
     class RoomController : MonoBehaviour
     {

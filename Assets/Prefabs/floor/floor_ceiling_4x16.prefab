@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3362642}
   - component: {fileID: 2345582}
   - component: {fileID: 6550728}
+  - component: {fileID: 114336665235399648}
   m_Layer: 0
   m_Name: floor_ceiling_4x16
   m_TagString: Untagged
@@ -95,3 +96,18 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 193982}
   m_IsPrefabParent: 1
+--- !u!114 &114336665235399648
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 193982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c00f695f640463395a8a346bc98d4f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Category:
+    Category: 3
+    PossibleParent: 0
+    ClearanceDistance: 0

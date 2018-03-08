@@ -136,4 +136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c00f695f640463395a8a346bc98d4f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Category: 1
+  Category:
+    Category: 2
+    ClearanceDistance: 0
+    PossibleParent: 3
